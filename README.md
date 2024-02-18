@@ -13,6 +13,10 @@
 <b>*   URL Shortening:</b> Effortlessly transform lengthy URLs into concise memorable strings ideal for social media text messages emails and other communication channels. <br> <br>
 <b>*   Detailed Analytics:</b> Gain rich insights into link performance with granular information about visits including: Total Count: View the overall number of clicks on your shortened URL. Timestamped Breakdown: See the exact date and time of each visit for in-depth analysis. Referrer Analysis: Understand where your traffic originates from (direct visits search engines social media etc.).
 
+<h2>Project Screenshots:</h2>
+
+<img src="https://res.cloudinary.com/dlnzqxcu1/image/upload/v1708273832/Short-URL_riop9c.png" alt="project-screenshot" width="1000" height="650/">
+
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Navigate to the root directory</p>
