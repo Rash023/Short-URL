@@ -55,7 +55,13 @@ cd ./client
 ```
 npm run start
 ```
-  
+
+<p>7. Paste the short-URL along with your server port</p>
+
+```
+ex:- http://localhost:4001/abcdEx
+```
+
   
 <h2>💻 Built with</h2>
 
