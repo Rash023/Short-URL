@@ -39,7 +39,18 @@ touch .env
 npm run start
 ```
 
+<p>5. Navigate to the client directory</p>
 
+```
+cd ./client
+```
+
+
+<p>6. Start the Client</p>
+
+```
+npm run start
+```
   
   
 <h2>💻 Built with</h2>
