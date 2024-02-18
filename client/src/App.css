@@ -1,0 +1,63 @@
+.gemini-font {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #e3d5cf 20%,
+    #4d90f0 40%,
+    #4d90f0 60%,
+    #e3d5cf 80%
+  );
+  background-clip: text;
+  color: transparent;
+  animation: gradient 5s linear infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes gradient {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.animated-star {
+  animation-name: rotate; /* Apply both animations */
+  animation-duration: 2s; /* Duration of each animation */
+  animation-iteration-count: infinite; /* Repeat indefinitely */
+  animation-timing-function: linear; /* Smooth transition */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.input {
+  width: 320px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: black;
+  background: #fff;
+  border: 1px solid #DAE2ED;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.input:hover {
+  border-color: #007FFF;
+}
+
+.input:focus {
+  border-color: #007FFF;
+  box-shadow: 0 0 0 3px rgba(0, 114, 229, 0.2);
+}
+
+.input:focus-visible {
+  outline: 0;
+}
